@@ -15,7 +15,6 @@ A fully functional hardware implementation of Pac-Man running on a DE1-SoC FPGA,
 - Cheat mode (KEY2) to hide ghosts for demonstration
 
 **Asset Pipeline**
-All graphics assets were generated using custom Python scripts:
 - Maze and screen images converted from PNG to 1-bit binary hex files for ROM loading via $readmemb
 - Ghost sprites stored as 24-bit RGB hex files with magenta (FF00FF) transparency keying, loaded via $readmemh
 - Ghost waypoints extracted from color-coded paths drawn in Microsoft Paint, automatically parsed into SystemVerilog hardcoded arrays
