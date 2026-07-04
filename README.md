@@ -24,6 +24,4 @@ All graphics assets were generated using custom Python scripts:
 - Fit the full design within the Cyclone V's 3,207 logic array blocks — resolved by reducing the red ghost's replay buffer from 4,096 to 256 entries and adjusting sample rate
 - Balanced multiple large ROM blocks (maze, dots, sprites, screens) through careful resource budgeting and 1-bit hex representations
 
----
 
-Want me to trim this down, or is this the level of detail you want for GitHub?
